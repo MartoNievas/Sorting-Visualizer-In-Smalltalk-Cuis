@@ -16,7 +16,7 @@ Muestra una animación en tiempo real del algoritmo **Bubble Sort** sobre una co
 Abrí un Workspace en Cuis y ejecutá:
 
 ```smalltalk
-SortingVisualizerWindow with: (1 to: 50) asOrderedCollection shuffled.
+SortingVisualizerWindow withBubbleSort: (1 to: 50) asOrderedCollection shuffled.
 ```
 
 Podés cambiar el tamaño de la colección o usar cualquier colección de números.
