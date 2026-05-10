@@ -4,7 +4,7 @@ Visualizador de algoritmos de ordenamiento implementado en **Cuis Smalltalk** us
 
 ## ¿Qué hace?
 
-Muestra una animación en tiempo real del algoritmo **Bubble Sort** sobre una colección de números, representados como barras verticales. Las barras que se están comparando/intercambiando se resaltan en **rojo**, mientras que el resto se muestran en **azul**.
+Muestra una animación en tiempo real de algunos algoritmos de ordenamiento sobre una colección de números, representados como barras verticales. Las barras que se están comparando/intercambiando se resaltan en **rojo**, mientras que el resto se muestran en **azul**.
 
 ## Estructura
 
@@ -17,6 +17,8 @@ Abrí un Workspace en Cuis y ejecutá:
 
 ```smalltalk
 SortingVisualizerWindow withBubbleSort: (1 to: 50) asOrderedCollection shuffled.
+SortingVisualizerWindow withMergeSort: (1 to: 50) asOrderedCollection shuffled.
+SortingVisualizerWindow withMergeSort: (1 to: 3) asOrderedCollection shuffled .
 ```
 
 Podés cambiar el tamaño de la colección o usar cualquier colección de números.
